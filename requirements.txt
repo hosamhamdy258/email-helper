@@ -1,0 +1,9 @@
+asgiref==3.9.2
+django==5.2.7
+django-des @ git+https://github.com/jamiecounsell/django-des@4d121c62ffd0cd7e6a7288a6f6aa14e82fb247e1
+django-easy-select2==1.5.8
+django-froala-editor==4.6.2
+django-solo==2.3.0
+pillow==11.3.0
+python-dotenv==1.1.1
+sqlparse==0.5.3

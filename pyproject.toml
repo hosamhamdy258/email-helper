@@ -1,0 +1,19 @@
+[project]
+name = "email-helper"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "django>=5.2.7",
+    "django-des",
+    "django-easy-select2>=1.5.8",
+    "django-froala-editor>=4.6.2",
+    "pillow>=11.3.0",
+    "python-dotenv>=1.1.1",
+]
+
+[tool.uv.sources]
+django-des = { git = "https://github.com/jamiecounsell/django-des", rev = "4d121c62ffd0cd7e6a7288a6f6aa14e82fb247e1" }
+
+
